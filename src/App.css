@@ -14,14 +14,15 @@
 .card {
   width: 30rem;
   height: 260px;
-  background-color: grey;
+  background-color: rgba(155, 154, 154,0.6);
   border-radius: 15px;
-  border-bottom: 5px solid black;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   /* align-items: center; */
   justify-content: space-evenly;
+  padding: 1.5rem;
+  box-shadow: 0 0 60px #be0202  
 }
 .rangeDiv .range {
   width: 100%;
@@ -44,4 +45,31 @@
   align-items: center;
   background-color: white;
   padding: 15px 2px 2px 5px;
+  margin: 0  20px;
+  border-radius: 10px;
+}
+
+.promptDiv{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content:center ;
+ height: 4rem;
+ background-color: rgba(155, 154, 154,0.8);
+ border-radius: 10px;
+  margin: 0 auto;
+}
+.plusBtn{
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.input{
+  padding: 5px;
+  border-radius: 10px;
+  border:2px solid rgb(145, 148, 149) ;
+  outline: none;
 }
